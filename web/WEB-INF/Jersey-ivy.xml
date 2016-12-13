@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.2">
+    <info organisation="com.book" module="JerseySimpleProject">
+    </info>
+    <dependencies>
+        <dependency org="org.glassfish.jersey.containers" name="jersey-container-servlet-core" rev="2.22.1"/>
+        <!--For Bean validation-->
+        <dependency org="org.glassfish.jersey.ext" name="jersey-bean-validation" rev="2.7"/>
+        <!--moxy is required for converting pojo to json Jersey converts a POJO to XML and then to Json. Json to XML to POJO-->
+        <dependency org="org.glassfish.jersey.media" name="jersey-media-moxy" rev="2.22.1"/>
+    </dependencies>
+</ivy-module>
